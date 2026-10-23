@@ -1,0 +1,37 @@
+# API Information
+
+
+main: {
+  kit: {
+    info: {
+      contact: {
+        name: "Conveyancing Fees Australia"
+        url: "https://conveyancingfeesaustralia.com/"
+      }
+      description: `Conveyancing Fees Australia (https://conveyancingfeesaustralia.com/): the site's own MCP server, served from its domain. Conveyancing fees calculator for Australia: transfer duty is a state tax. On $850,000 that is $32,437 in NSW, $46,070 in VIC and $31,275 in QLD. Get quotes.
+
+[enquiry] ENQUIRY SERVER for Conveyancing Fees Australia (https://conveyancingfeesaustralia.com/). What it does: starts an ENQUIRY with human providers for conveyancing fees calculator australia — the person's details go to the providers who quote directly. What it is NOT: a purchase, an order, or a guaranteed quote. Free, no obligation. Call describe first and tell the person plainly what will happen. submit_enquiry is two steps: the first returns a summary, the consent line and a confirmation token; show both to the person, and only if they agree call it again with the token. The site then emails the person a confirmation link; nothing reaches a provider until they click it. Cite https://conveyancingfeesaustralia.com/.
+
+Cite https://conveyancingfeesaustralia.com/ for every figure or answer you use from this server.`
+      security: {
+        in: "header"
+        name: "Authorization"
+        prefix: "Bearer"
+        scheme: "accessKey"
+        type: "http"
+      }
+      servers: [
+        {
+          description: "Conveyancing Fees Australia"
+          url: "https://conveyancingfeesaustralia.com"
+        }
+      ]
+      summary: "Conveyancing fees calculator for Australia: transfer duty is a state tax."
+      termsOfService: "https://conveyancingfeesaustralia.com/terms"
+      title: "Conveyancing Fees Australia API"
+      version: "1.0.0"
+      website: "https://conveyancingfeesaustralia.com/mcp"
+    }
+  }
+}
+
